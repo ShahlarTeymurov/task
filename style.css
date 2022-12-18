@@ -1,13 +1,43 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#demo {
+  padding: 10px 0;
+}
+#demo .minibox {
+  width: 100px;
+  height: 100px;
+  background-color: #2c6bf1;
+  margin-bottom: 10px;
+}
+#demo .minibox h3 {
+  color: white;
+  font-size: 12px;
+  padding: 10px 0 0 10px;
+}
+#demo .big {
+  position: absolute;
+  top: 240px;
+  left: 300px;
 }
 
-a:hover {
-  color: black;
+#second {
+  padding: 170px 0;
 }
-/*# sourceMappingURL=style.css.map */
+#second .minibox {
+  width: 100px;
+  height: 100px;
+  background-color: #356340;
+  margin-bottom: 10px;
+}
+#second .minibox h3 {
+  font-size: 12px;
+  color: white;
+  padding: 10px 0 0 10px;
+}
+#second .big {
+  position: absolute;
+  left: 260px;
+}/*# sourceMappingURL=style.css.map */
