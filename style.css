@@ -3,21 +3,27 @@ body {
   font-weight: 500;
 }
 
-#second {
-  padding: 10px 0;
+#demo .wid {
+  width: 525px;
 }
-#second .minibox {
-  width: 100px;
-  height: 100px;
-  background-color: #356340;
+#demo .wid p {
   margin-bottom: 10px;
 }
-#second .minibox h3 {
+#demo .box .minibox {
+  width: 100px;
+  height: 100px;
+  background-color: #e13ef0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+#demo .box .minibox h3 {
   font-size: 12px;
   color: white;
   padding: 10px 0 0 10px;
 }
-#second .big {
+#demo .box .big {
   position: absolute;
-  left: 260px;
+  position: fixed;
+  left: 1252px;
+  bottom: 410px;
 }/*# sourceMappingURL=style.css.map */
